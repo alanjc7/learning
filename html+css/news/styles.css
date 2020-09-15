@@ -1,0 +1,97 @@
+.news-header {
+  border-bottom: 3px solid black;
+}
+
+.brand {
+  font-family: 'Snell Roundhand';
+  font-size: 60px;
+  font-weight: normal;
+  text-align: center;
+}
+
+.article-title {
+  font-size: 30px;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+
+body {
+  padding: 10px;
+}
+
+.half {
+  text-align: center;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.image {
+  width: 100%;
+}
+
+.quarter {
+  width: 25%;
+  box-sizing: border-box;
+}
+
+.three-quarter {
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.row {
+  border-left: 1px solid black;
+  border-bottom: 3px solid black;
+  display: inline-flex;
+  width: 100%;
+}
+
+p {
+  text-align: left;
+}
+
+.story {
+  padding: 0 10px;
+  border-right: 1px solid black;
+}
+
+.links {
+  border-right: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  font-family: futura;
+  font-size: 30px;
+  font-weight: bold;
+  padding-left: 30px;
+  text-decoration: none;
+  color: dimgray;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  align-items: center;
+  display: flex;
+  flex: 1;
+}
+
+.green {
+  background-color: forestgreen;
+}
+
+.orange {
+  background-color: orange;
+}
